@@ -1,0 +1,31 @@
+{
+  "name": "pos",
+  "version": "1.0.0",
+  "description": "point of sales system",
+  "main": "server",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vai2015/pos.git"
+  },
+  "keywords": [
+    "pos",
+    "purchase",
+    "invoice",
+    "sales"
+  ],
+  "author": "no name",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vai2015/pos/issues"
+  },
+  "homepage": "https://github.com/vai2015/pos#readme",
+  "dependencies": {
+    "await": "^0.2.6",
+    "express": "^4.14.0",
+    "mysql": "^2.11.1",
+    "promise": "^7.1.1"
+  }
+}
